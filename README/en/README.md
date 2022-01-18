@@ -72,7 +72,7 @@ The documents are in the ```content/{en,vn,in,jp,ko}``` directories, select the 
 
 ## Translations <a href="https://gitlocalize.com/repo/7011/whole_project?utm_source=badge"> <img src="https://gitlocalize.com/repo/7011/whole_project/badge.svg" /> </a>
 
-This repository is git localized! Hazzah!
+This repository is git localized!!!!! :-)
 
 ## Change Log
 

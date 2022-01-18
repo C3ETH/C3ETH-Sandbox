@@ -70,6 +70,10 @@ Issues can be used to send feedback to the team for further development. In the 
 
 The documents are in the ```content/{en,vn,in,jp,ko}``` directories, select the desired section to edit or add, for content organization please refer to: https://gohugo.io/content-management/organization/.
 
+## Translations <a href="https://gitlocalize.com/repo/7011/whole_project?utm_source=badge"> <img src="https://gitlocalize.com/repo/7011/whole_project/badge.svg" /> </a>
+
+This repository is git localized!
+
 ## Change Log
 
 See [CHANGELOG.md](CHANGELOG.md) for notable changes and versions.

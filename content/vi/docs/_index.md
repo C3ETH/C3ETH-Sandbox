@@ -1,6 +1,11 @@
 ---
-
-## title: "Tài liệu" linkTitle: "Tài liệu" weight: 20 menu: main: weight: 20
+title: "Tài liệu" 
+linkTitle: "Tài liệu" 
+weight: 20 
+menu: 
+    main: 
+        weight: 20
+---
 
 {{% pageinfo %}} Đây là trang giữ chỗ chỉ cho bạn cách sử dụng trang mẫu này {{% /pageinfo %}}
 

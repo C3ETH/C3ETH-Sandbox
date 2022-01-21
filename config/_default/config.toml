@@ -75,7 +75,7 @@ description = "A Sandbox Website"
 languageName ="English"
 # Weight used for sorting.
 weight = 1
-[languages.no]
+[languages.vi]
 title = "C3ETH hộp cát"
 description = "Trang web hộp cát"
 languageName ="Vietnamese"

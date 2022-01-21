@@ -1,8 +1,8 @@
 ---
-title: Bắt đầu
-linkTitle: Bắt đầu
-weight: '2'
-description: Đường dẫn dịch ví dụ
+title: "Bắt đầu"
+linkTitle: "Bắt đầu"
+weight: 2
+description: "Đường dẫn dịch ví dụ"
 ---
 
 {{% pageinfo %}} Đây là trang giữ chỗ chỉ cho bạn cách sử dụng trang mẫu này {{% /pageinfo %}}

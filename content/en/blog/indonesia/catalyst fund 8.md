@@ -15,4 +15,4 @@ Test 2 YouTube <br>
 [![IOHK in Japan](https://ucarecdn.com/42202016-98e7-4e94-bba9-780c88ad235b/)](https://www.youtube.com/watch?v=AzPRR89Qdlk-Y "IOHK in Japan")
 
 Test 3 YouTube <br>
-[![IOHK in Japan](https://ucarecdn.com/42202016-98e7-4e94-bba9-780c88ad235b/)](https://www.youtu.be/AzPRR89Qdlk-Y?t=60s "IOHK in Japan")
+[![IOHK in Japan](https://ucarecdn.com/42202016-98e7-4e94-bba9-780c88ad235b/)](https://youtu.be/AzPRR89Qdlk-Y?t=60s "IOHK in Japan")

@@ -19,3 +19,18 @@ Test 3 YouTube <br>
 
 Test 4 YouTube <br>
 [![IOHK in Japan](https://img.youtube.com/vi/AzPRR89Qdlk/0.jpg)](https://youtu.be/AzPRR89Qdlk-Y?t=10s "IOHK in Japan")
+
+> **Apa itu Project Catalyst?**
+
+Eksperimen governance terbesar demi terciptanya DAO yang sesungguhnya, dimana masing - masing pihak yang terlibat di dalamnya dapat saling berkolaborasi, belajar, dan berkontribusi bagi pengembangan ekosistem Cardano di dunia nyata.
+
+Pembiayaan eksperimen ini berasal dari Treasury ADA dengan menggabungkan prosedur proposal dan voting. Setiap anggota komunitas dipersilahkan untuk membuat proposal, melakukan penilaian terhadap proposal, dan ikut dalam proses voting. Semuanya memiliki hak yang sama dan didorong untuk saling berkolaborasi dalam membuat proposal yang inovatif dan powerful.
+
+Dengan kombinasi dari penelitian dalam pembuatan proposal, eksperimen sosial, dan persetujuan dari anggota komunitas, harapannya adalah tercipta iklim yang demokratis dalam komunitas Cardano.
+
+> **Siapa saja yang terlibat di dalam Project Catalyst?**
+
+Secara garis besar, ada 3 pihak utama yang terlibat di dalam Project Catalyst:
+* Proposer (pihak yang mengajukan proposal)
+* Voter (pihak yang melakukan voting terhadap proposal)
+* Community Advisors/CA (pihak yang melakukan penilaian terhadap proposal)

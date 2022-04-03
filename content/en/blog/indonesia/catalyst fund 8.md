@@ -90,7 +90,7 @@ Secara garis besar, ada 3 pihak utama yang terlibat di dalam Project Catalyst:
 
 #
 
-#### Sebagai informasi, kegiatan ini khusus di Eastern Townhall (ETH) Indonesia saja dan dimulai sejak tanggal 10 Jan 2022
+#### *Sebagai informasi, kegiatan ini khusus di Eastern Townhall (ETH) Indonesia saja dan dimulai sejak tanggal 10 Jan 2022*
 
 ### **Program Community Engagement Bounty 1.0**
 

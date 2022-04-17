@@ -1,0 +1,346 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>C3ETH Sandbox – Goldydocs</title><link>/</link><description>Recent content in Goldydocs on C3ETH Sandbox</description><generator>Hugo -- gohugo.io</generator><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Cara Ikut Serta di Project Catalyst</title><link>/blog/1/01/01/cara-ikut-serta-di-project-catalyst/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/blog/1/01/01/cara-ikut-serta-di-project-catalyst/</guid><description>
+&lt;h3 id="1-pengantar">&lt;strong>1. Pengantar&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>ADA tidak dikunci dan tetap dapat ditransaksikan kapan saja.&lt;/li>
+&lt;li>ADA tetap berada di dompet dan tidak akan hilang selama staking.&lt;/li>
+&lt;li>Tidak ada resiko slashing (holding ADA terkena pemotongan (slashed) oleh protokol sebagai hukuman karena tindakan merugikan yang dilakukan oleh SPO).&lt;/li>
+&lt;li>Rewards staking otomatis ditambahkan ke akun staking (compounded).&lt;/li>
+&lt;li>Biaya tetap (fixed cost) sebesar 340 ADA sesuai yang ditentukan oleh protokol dan margin (biaya di luar fixed cost yang diatur oleh SPO sendiri) diambil terlebih dahulu dari total rewards epoch untuk SPO. Selanjutnya, rewards didistribusikan ke semua delegator di SPO tersebut.&lt;/li>
+&lt;/ul>
+&lt;h3 id="2-informasi-epoch--rewards">&lt;strong>2. Informasi Epoch &amp;amp; Rewards&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>Durasi sebuah Epoch adalah 5 hari.&lt;/li>
+&lt;li>Jadwal penghitungan Rewards (dengan contoh):&lt;/li>
+&lt;/ul>
+&lt;p>a. &lt;strong>Epoch 1 (sedang berjalan)&lt;/strong> → Mulai staking di SPO&lt;/p>
+&lt;p>Biaya - biaya yang dikenakan saat pertama kali staking:&lt;/p>
+&lt;ul>
+&lt;li>Biaya jaringan: ± 0.17 ADA&lt;/li>
+&lt;li>Biaya deposit Staking Key (Refundable): 2 ADA&lt;/li>
+&lt;/ul>
+&lt;p>b. &lt;strong>Epoch 2 (Hari 1-5)&lt;/strong> → Proses stake snapshot, teregistrasi ke SPO.&lt;/p>
+&lt;p>c. &lt;strong>Epoch 3 (Hari 6-10)&lt;/strong> → Proses pemilihan slot leaders dan block production.&lt;/p>
+&lt;p>Stake ADA sudah aktif dan berkontribusi di SPO.&lt;/p>
+&lt;p>d. &lt;strong>Epoch 4 (Hari 11-15)&lt;/strong> → Proses penghitungan rewards dari Epoch sebelumnya berdasarkan block production.&lt;/p>
+&lt;p>e. &lt;strong>Epoch 5 (Hari 16-20)&lt;/strong> → Menerima rewards pertama dari Epoch 3.&lt;/p>
+&lt;p>f. &lt;strong>Epoch 6 (Hari 21-25)&lt;/strong> → Menerima rewards dari Epoch 4.&lt;/p>
+&lt;p>g. &lt;strong>Epoch 7 (Hari 26-30)&lt;/strong> → Menerima rewards dari Epoch 5.&lt;/p>
+&lt;p>Rewards akan terus diterima di setiap Epoch selama SPO terus memproduksi block di 2 Epoch sebelumnya.&lt;/p>
+&lt;h3 id="3-mengubah-jumlah-staking-menambahmengurangi">&lt;strong>3. Mengubah Jumlah Staking (menambah/mengurangi)&lt;/strong>&lt;/h3>
+&lt;blockquote>
+&lt;p>&lt;em>melanjutkan contoh di atas&lt;/em>&lt;/p>
+&lt;/blockquote>
+&lt;p>a. &lt;strong>Epoch 7 (sedang berjalan)&lt;/strong>&lt;/p>
+&lt;p>Awal staking 100 ADA, kemudian menambahkan 50 ADA, menjadi 150 ADA.&lt;/p>
+&lt;p>b. &lt;strong>Epoch 8&lt;/strong> → Masih terima rewards dari staking 100 ADA (Epoch 6)&lt;/p>
+&lt;p>Proses stake snapshot yang terbaru 150 ADA&lt;/p>
+&lt;p>c. &lt;strong>Epoch 9&lt;/strong> → Masih terima rewards dari staking 100 ADA (Epoch 7)&lt;/p>
+&lt;p>Proses pemilihan slot leaders dan block production, stake ADA terbaru 150 ADA sudah aktif.&lt;/p>
+&lt;p>d. &lt;strong>Epoch 10&lt;/strong> → Masih terima rewards dari staking 100 ADA (Epoch 8)&lt;/p>
+&lt;p>Proses penghitungan rewards dari Epoch sebelumnya berdasarkan block production.&lt;/p>
+&lt;p>e. &lt;strong>Epoch 11&lt;/strong> → Sudah terima rewards dari staking 150 ADA (Epoch 9)&lt;/p>
+&lt;h3 id="4-mengubah-spo">&lt;strong>4. Mengubah SPO&lt;/strong>&lt;/h3>
+&lt;blockquote>
+&lt;p>&lt;em>melanjutkan contoh di atas&lt;/em>&lt;/p>
+&lt;/blockquote>
+&lt;p>a. &lt;strong>Epoch 7 (sedang berjalan)&lt;/strong>&lt;/p>
+&lt;p>Awal staking ke SPO ABC, kemudian pindah ke SPO XYZ.&lt;/p>
+&lt;p>b. &lt;strong>Epoch 8&lt;/strong> → Masih terima rewards dari SPO ABC (Epoch 6)&lt;/p>
+&lt;p>Proses stake snapshot yang terbaru di SPO XYZ.&lt;/p>
+&lt;p>c. &lt;strong>Epoch 9&lt;/strong> → Masih terima rewards dari SPO ABC (Epoch 7)&lt;/p>
+&lt;p>Proses pemilihan slot leaders dan block production, stake ADA sudah aktif di SPO XYZ.&lt;/p>
+&lt;p>d. &lt;strong>Epoch 10&lt;/strong> → Masih terima rewards dari SPO ABC (Epoch 8)&lt;/p>
+&lt;p>Proses penghitungan rewards dari Epoch sebelumnya berdasarkan block production.&lt;/p>
+&lt;p>e. &lt;strong>Epoch 11&lt;/strong> → Sudah terima rewards dari SPO XYZ (Epoch 9)&lt;/p>
+&lt;h3 id="5-withdraw-rewards--stop-staking">&lt;strong>5. Withdraw Rewards &amp;amp; Stop Staking&lt;/strong>&lt;/h3>
+&lt;p>Ada 2 opsi yang dapat dilakukan ketika withdraw rewards:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Hanya Withdraw Rewards&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>Akun staking tetap berhak mendapatkan rewards di Epoch berikutnya.
+Rewards balance dipindah ke staking balance.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Stop Staking&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>Deposit 2 ADA dikembalikan, akun staking ditarik registrasinya dan tidak berhak mendapatkan rewards lagi, termasuk dari Epoch terakhir ketika stop staking.
+Rewards balance dan staking balance dipindah seluruhnya ke available balance.&lt;/p>
+&lt;h3 id="6-diagram-staking">&lt;strong>6. Diagram Staking&lt;/strong>&lt;/h3>
+&lt;p>&lt;img src="https://aws1.discourse-cdn.com/business4/uploads/cardano/original/3X/6/2/6291c37441ab5cbaca7c188f81e00481e1cf1f36.jpeg" alt="Delegation Cycle">&lt;/p>
+&lt;h3 id="parameter---parameter">&lt;strong>Parameter - Parameter&lt;/strong>&lt;/h3>
+&lt;h3 id="1-throughput-volume-transfer-data">&lt;strong>1. Throughput (volume transfer data)&lt;/strong>&lt;/h3>
+&lt;p>Ukuran block: 64 KB.&lt;/p>
+&lt;p>Ukuran untuk single Plutus script transaction di-limit di 16 KB.&lt;/p>
+&lt;p>Ukuran simple transaction biasanya hanya 200-300 Bytes.&lt;/p>
+&lt;p>Minimal sebuah block dapat menampung 4 jenis transaksi, single Plutus script transaction (smart contract); native tokens; metadata; dan simple transaction seperti payment. Namun, ukuran block dapat diperbesar untuk meningkatkan throughput.&lt;/p>
+&lt;h3 id="2-mempool">&lt;strong>2. Mempool&lt;/strong>&lt;/h3>
+&lt;p>Ukuran Mempool: 128 KB (2x ukuran block).&lt;/p>
+&lt;p>Semua transaksi yang terjadi ditampung terlebih dahulu secara temporary di mempool sampai mereka siap diproses dan di-input ke dalam block.&lt;/p>
+&lt;p>Transaksi – transaksi yang pending akan dihapus dari mempool begitu block baru sudah terbentuk. Setelah itu, transaksi – transaksi yang baru bisa ditambahkan lagi ke dalam mempool.&lt;/p>
+&lt;p>Dengan ukuran mempool yang dibuat tetap seperti ini memungkinan node – node tidak overload ketika periode high demand. Walaupun itu berarti setiap transaksi yang dilakukan dari wallet maupun Dapps harus di-submit kembali.&lt;/p>
+&lt;p>Hal ini bukan berarti jaringan sedang bersusah payah (struggling), melainkan lebih tepatnya jaringan beroperasi seperti yang sudah direncanakan sebelumnya (graceful degradation).&lt;/p>
+&lt;h3 id="3-block-time-budget">&lt;strong>3. Block Time Budget&lt;/strong>&lt;/h3>
+&lt;p>Waktu yang tersedia untuk memproses semua transaksi ke dalam sebuah block. Waktu ini dibagi untuk memproses Plutus script dan transaksi – transaksi lainnya.&lt;/p>
+&lt;p>Block Time Budget di-set sebesar 1 detik.&lt;/p>
+&lt;p>Untuk Plutus script sendiri diberikan jatah waktu sebesar 50 millisecond.&lt;/p>
+&lt;h3 id="4-timeliness-waktu-adopsi-block">&lt;strong>4. Timeliness (waktu adopsi block)&lt;/strong>&lt;/h3>
+&lt;p>Jaringan harus dapat mendistribusikan (mempropagasi) transaksi dan block yang telah diproduksi ke setiap node yang tersebar di seluruh dunia, agar tercipta konsensus sehingga terverifikasi dan tervalidasi untuk di-input ke dalam blockchain.&lt;/p>
+&lt;p>Hal ini disebut sebagai data diffusion.&lt;/p>
+&lt;p>Data diffusion time di-set sebesar 5 detik karena standard dari protokol Ouroboros untuk menjamin keamanan jaringan.&lt;/p>
+&lt;h3 id="5-plutus-script-memory-units">&lt;strong>5. Plutus Script Memory Units&lt;/strong>&lt;/h3>
+&lt;p>Faktor penting bagi para developer DApps agar dapat merancang Plutus scripts yang sophisticated sehingga mampu memproses banyak input data, meningkatkan concurrency, atau memperluas kapabilitas aplikasinya.&lt;/p>
+&lt;p>Semakin besar ukuran memory units, semakin besar ukuran transaksi (Bytes), semakin besar pula sumber daya yang dibutuhkan untuk memverifikasi dan memvalidasi transaksinya sehingga biaya transaksi juga menjadi semakin besar.&lt;/p>
+&lt;h3 id="throughput-vs-timeliness">&lt;strong>Throughput VS Timeliness&lt;/strong>&lt;/h3>
+&lt;p>Selanjutnya, dari kelima faktor di atas, perlu diketahui bahwa Throughput dan Timeliness adalah 2 faktor yang saling tarik menarik. Berikut penjelasannya:&lt;/p>
+&lt;ul>
+&lt;li>Throughput ditingkatkan, ukuran block diperbesar agar block mampu menampung banyak transaksi.&lt;/li>
+&lt;li>Banyak transaksi yang tertampung seolah – olah jaringan bekerja dengan cepat (network performance bagus).&lt;/li>
+&lt;li>Namun, hal ini menjadi bumerang ketika jaringan sangat sibuk (saturated) yang menyebabkan timeliness delay, yaitu ukuran block yang besar – besar sehingga waktu propagasi menjadi lebih lama. Proses verifikasi dan validasi ke dalam blockchain pun menjadi terlambat sehingga terbuka celah keamanan disitu.&lt;/li>
+&lt;li>Data diffusion time sebesar 5 detik menjadi sebuah batasan yang harus diperhatikan ketika akan meningkatkan ukuran block.&lt;/li>
+&lt;li>Oleh karena itu, untuk meningkatkan throughput, dapat dilakukan dengan efisiensi parameter jaringan lainnya agar ada ruang yang cukup untuk meningkatkan ukuran block sehingga data diffusion time dapat tetap terjaga.&lt;/li>
+&lt;/ul>
+&lt;h3 id="perubahan-parameter-jaringan-akan-selalu-di-update">&lt;strong>Perubahan Parameter Jaringan (akan selalu di-update)&lt;/strong>&lt;/h3>
+&lt;blockquote>
+&lt;p>&lt;em>Perubahan yang telah dilakukan sejak awal tahun 2022&lt;/em>&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="epoch-306">&lt;strong>Epoch 306&lt;/strong>&lt;/h4>
+&lt;ul>
+&lt;li>Ukuran block, dari 64 KB -&amp;gt; 72 KB&lt;/li>
+&lt;li>Ukuran Plutus script memory units per transaksi, dari 10.000.000 -&amp;gt; 11.250.000&lt;/li>
+&lt;/ul>
+&lt;h4 id="epoch-317">&lt;strong>Epoch 317&lt;/strong>&lt;/h4>
+&lt;ul>
+&lt;li>Ukuran Plutus script memory units per transaksi, dari 11.250.000 -&amp;gt; 12.500.000&lt;/li>
+&lt;/ul>
+&lt;h4 id="epoch-319">&lt;strong>Epoch 319&lt;/strong>&lt;/h4>
+&lt;ul>
+&lt;li>Ukuran block, dari 72 KB -&amp;gt; 80 KB&lt;/li>
+&lt;li>Ukuran Plutus script memory units per transaksi, dari 12.500.000 -&amp;gt; 14.000.000&lt;/li>
+&lt;/ul>
+&lt;h4 id="epoch-321">&lt;strong>Epoch 321&lt;/strong>&lt;/h4>
+&lt;ul>
+&lt;li>Ukuran Plutus script memory unit per block, dari 50.000.000 -&amp;gt; 56.000.000, yang berarti secara optimal dapat menampung memory 4 Plutus script transaction yang berukuran 14.000.000&lt;/li>
+&lt;/ul>
+&lt;h4 id="epoch-328">&lt;strong>Epoch 328&lt;/strong>&lt;/h4>
+&lt;ul>
+&lt;li>Ukuran Plutus script memory units per block, dari 56.000.000 → 62.000.000, yang berarti secara optimal dapat menampung memory 4 Plutus script transaction yang berukuran 14.000.000 dan transaksi Plutus script lainnya sampai maksimal 62.000.000.&lt;/li>
+&lt;/ul>
+&lt;h4 id="epoch-333">&lt;strong>Epoch 333&lt;/strong>&lt;/h4>
+&lt;ul>
+&lt;li>Ukuran block, dari 80 KB → 88 KB&lt;/li>
+&lt;/ul>
+&lt;h3 id="apa-itu-crypto-wallet">&lt;strong>Apa itu Crypto Wallet?&lt;/strong>&lt;/h3>
+&lt;p>Crypto Wallet adalah sebuah alat, tool, atau software wajib bagi para pengguna crypto untuk mengakses atau mentransaksikan aset crypto yang dimiliki.&lt;/p>
+&lt;h3 id="apakah-crypto-wallet-menyimpan-aset-crypto">&lt;strong>Apakah Crypto Wallet menyimpan aset crypto?&lt;/strong>&lt;/h3>
+&lt;p>Crypto Wallet tidak menyimpan aset - aset crypto yang dimiliki oleh para pengguna. Crypto wallet bukanlah sebuah dompet yang menyimpan uang secara harafiah.&lt;/p>
+&lt;h3 id="jika-tidak-disimpan-di-crypto-wallet-dimana-aset-crypto-kita-disimpan">&lt;strong>Jika tidak disimpan di Crypto Wallet, dimana aset crypto kita disimpan?&lt;/strong>&lt;/h3>
+&lt;p>Aset crypto &lt;em>&lt;strong>tercatat&lt;/strong>&lt;/em> di dalam entry &lt;em>&lt;strong>public address&lt;/strong>&lt;/em> yang ada di blockchain. Setiap address menunjukkan aset apa saja yang dimiliki, total nilai, beserta historisnya.&lt;/p>
+&lt;p>Walaupun crypto wallet sedang error, dengan public address, pengguna tetap dapat mengecek aset crypto yang dimiliki melalui blockchain explorer.&lt;/p>
+&lt;h3 id="apa-itu-non-custodial-vs-custodial-wallet">&lt;strong>Apa itu non-custodial VS custodial wallet?&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>Non-custodial (tidak dalam penguasaan oleh suatu pihak / non-kustodial) wallet adalah wallet dimana pengguna memiliki dan menjaga sendiri seed phrase / recovery phrase / mnemonic dari wallet tersebut. Untuk transaksi jual beli aset crypto hanya bisa dilakukan melalui DEX (Decentralized Exchange)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Custodial (dalam penguasaan suatu pihak / kustodial) wallet adalah wallet yang seed phrase / recovery phrase / mnemonic dimiliki dan dipegang oleh suatu pihak, pada umumnya CEX (Centralized Exchange) seperti Binance, Coinbase, Kraken, dan sejenisnya. Biasa digunakan oleh para pengguna crypto awal atau pengguna yang lebih memilih kemudahan ketika transaksi jual beli aset crypto&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Di non-custodial wallet, pengguna harus menjaga baik - baik seed phrase / recovery phrase / mnemonic dari wallet-nya sendiri. Sedangkan di custodial wallet, jika terjadi apa - apa dengan pihak lain itu misalnya CEX, maka semua aset crypto yang dimiliki pengguna terancam tidak bisa diakses lagi atau hilang&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="kenapa-kita-harus-simpan-seed-phrase--recovery-phrase--mnemonic-baik---baik-walaupun-crypto-wallet-nya-juga-sudah-di-password-dengan-super-panjang-dan-rumit">&lt;strong>Kenapa kita harus simpan seed phrase / recovery phrase / mnemonic baik - baik walaupun crypto wallet-nya juga sudah di-password dengan super panjang dan rumit?&lt;/strong>&lt;/h3>
+&lt;p>Public address lahir atau muncul dari &lt;em>&lt;strong>proses enkripsi&lt;/strong>&lt;/em> dengan private keys yang berasal dari seed phrase / recovery phrase / mnemonic sesuai dengan blockchain masing - masing.&lt;/p>
+&lt;p>Dengan seed phrase / recovery phrase / mnemonic, setiap pengguna dapat mengakses aset crypto yang dimiliki di wallet manapun (tentunya sesuai blockchain masing - masing).&lt;/p>
+&lt;p>&lt;em>&lt;strong>Sedangkan password yang diterapkan ke crypto wallet hanya mengenkripsi wallet secara lokal di browser/PC/laptop yang bersangkutan, namun tidak di browser/PC/laptop di tempat lain atau milik orang lain.&lt;/strong>&lt;/em>&lt;/p>
+&lt;p>&lt;em>&lt;strong>Jika seed phrase dicuri, walaupun pencuri tidak tahu password-nya, pencuri tetap dapat mengakses aset crypto dengan wallet lain, karena seed phrase → private keys → public address sehingga aset - aset crypto dapat ketahuan semuanya dan selanjutnya dicuri.&lt;/strong>&lt;/em>&lt;/p>
+&lt;h3 id="terus-bagaimana-cara-menyimpan-seed-phrase--recovery-phrase--mnemonic-yang-paling-aman">&lt;strong>Terus, bagaimana cara menyimpan seed phrase / recovery phrase / mnemonic yang paling aman?&lt;/strong>&lt;/h3>
+&lt;p>Metode paling aman untuk menyimpan seed phrase / recovery phrase / mnemonic adalah dengan menuliskannya di atas kertas yang terpisah, kemudian menyimpannya di tempat - tempat yang terpisah juga.&lt;/p>
+&lt;p>Tidak disarankan menyimpan di PC, laptop, atau handphone, terlebih lagi jika memakai nama file yang mudah ditebak. Resikonya adalah, jika PC/laptop/handphone terkena exploit/hack/virus, maka hacker dapat dengan mudah menemukan file tersebut.&lt;/p>
+&lt;h3 id="kalau-tidak-salah-pernah-dengar-tentang-ledger-trezor-katanya-lebih-aman-ya-kalau-pakai-itu">&lt;strong>Kalau tidak salah, pernah dengar tentang Ledger, Trezor. Katanya lebih aman ya kalau pakai itu?&lt;/strong>&lt;/h3>
+&lt;p>Ledger, Trezor, Keepkey, Bitbox, dan sejenisnya disebut sebagai &lt;strong>hardware wallet&lt;/strong>, atau sering disebut juga &lt;strong>cold wallet&lt;/strong>.&lt;/p>
+&lt;p>Sedangkan wallet - wallet yang dapat diakses dengan mudah melalui web browser, browser extension, mobile apps, atau dalam bentuk instalasi software desktop disebut sebagai &lt;strong>software wallet&lt;/strong>, atau sering disebut juga &lt;strong>hot wallet&lt;/strong>.&lt;/p>
+&lt;h3 id="mengapa-disebut-cold-wallet-dan-hot-wallet">&lt;strong>Mengapa disebut cold wallet dan hot wallet?&lt;/strong>&lt;/h3>
+&lt;p>Dengan cold wallet, terdapat extra layer security bagi pengguna ketika ingin mengakses public address yang ada di setiap blockchain (misal BTC, ETH, ADA, dll), dimana &lt;strong>dibutuhkan interaksi fisik dari pengguna&lt;/strong> dalam meng-input password, memilih blockchain yang ingin digunakan, serta menekan tombol - tombol yang ada di cold wallet ketika melakukan transaksi.&lt;/p>
+&lt;p>&lt;em>&lt;strong>Perlu diingat! Cold wallet sendiri memiliki seed phrase / recovery phrase / mnemonic ketika proses konfigurasi pertama kali. Metode penyimpanan dari seed phrase / recovery phrase / mnemonic tentunya mengacu ke penjelasan sebelumnya di atas.&lt;/strong>&lt;/em>&lt;/p>
+&lt;p>Untuk hot wallet, pengguna dapat dengan mudah meng-input seed phrase / recovery phrase / mnemonic atau wallet password kapanpun dan dimanapun. Pengguna &lt;strong>dapat bertransaksi secara cepat&lt;/strong> tanpa perlu repot - repot interaksi fisik dengan sebuah alat.&lt;/p>
+&lt;h3 id="bagaimana-jika-cold-wallet-hilang-atau-rusak">&lt;strong>Bagaimana jika cold wallet hilang atau rusak?&lt;/strong>&lt;/h3>
+&lt;p>Di setiap cold wallet sudah memiliki prosedur keamanan tersendiri, semisal jika password 3x salah, maka otomatis akan factory reset. Kembali lagi, asalkan keamanan seed phrase / recovery phrase / mnemonic dari cold wallet dapat dijaga, pencuri pun tidak dapat mengaksesnya atau pengguna dapat membeli cold wallet baru lalu mengaksesnya dengan seed phrase yang dimiliki dari cold wallet sebelumnya.&lt;/p>
+&lt;h3 id="saya-pribadi-tetap-lebih-prefer-pake-hot-wallet-tidak-repot-tidak-buang-biaya-ekstra-juga-ada-saran-untuk-menjaga-keamanannya">&lt;strong>Saya pribadi tetap lebih prefer pake hot wallet, tidak repot, tidak buang biaya ekstra juga. Ada saran untuk menjaga keamanannya?&lt;/strong>&lt;/h3>
+&lt;p>Beberapa saran keamanan:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Selalu delete wallet begitu selesai digunakan (jika menggunakan wallet berupa browser extension). Contoh: Yoroi, Nami, CCVault, Typhon, GeroWallet dll.
+&lt;em>&lt;strong>Browser extension tidak akan hilang otomatis jika hanya clean browser’s histories, cookies, and caches ketika mau close browser&lt;/strong>&lt;/em>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Selalu clean browser’s histories, cookies, and caches ketika mau close browser (jika menggunakan wallet berupa web browser). Contoh: AdaLite, dll&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Pastikan jaringan handphone tidak terhubung sembarangan ke public network seperti public WiFi di tempat - tempat umum (cafe, restoran, hotel, bandara, mall, dll). Usahakan tetap menggunakan paket data milik pribadi (jika menggunakan wallet berupa mobile apps). Contoh: Yoroi, dll&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Pastikan PC/laptop yang digunakan memiliki security yang selalu terupdate (jika menggunakan wallet berupa instalasi software desktop). Contoh: Exodus, Guarda,dll
+Security dapat berupa windows defender atau antivirus yang selalu terupdate. Dapat juga menggunakan PC/laptop dengan sistem operasi di luar Windows seperti Linux dan MacOS.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="jika-saya-mau-pindah-ke-wallet-lain-apakah-saya-harus-unstaking-ada-dulu-di-wallet-saat-ini">&lt;strong>Jika saya mau pindah ke wallet lain, apakah saya harus unstaking ADA dulu di wallet saat ini?&lt;/strong>&lt;/h3>
+&lt;p>Kembali ke penjelasan di atas, semua historis transaksi tercatat di blockchain termasuk staking. Dengan seed phrase / recovery phrase / mnemonic, setiap pengguna dapat mengakses aset crypto yang dimiliki di wallet manapun.&lt;/p>
+&lt;p>Password wallet sendiri dapat dibuat, diubah, atau diganti - ganti sesuka hati, karena keamanan yang terutama tetap di seed phrase / recovery phrase / mnemonic.&lt;/p>
+&lt;p>Blockchain dengan mekanisme konsensus Proof of Stake adalah blockchain yang menggunakan aset crypto yang &lt;em>di-staking&lt;/em> atau &lt;em>di-depositkan&lt;/em> untuk memutuskan siapa yang akan memvalidasi transaksi – transaksi dan menambahkannya ke dalam block berikutnya, untuk kemudian di-input ke chain. Di dalam blockchain Proof of Work seperti Bitcoin, hal ini disebut sebagai &lt;em>&lt;strong>Block Mining&lt;/strong>&lt;/em>.&lt;/p>
+&lt;p>Ketika aset crypto sedang di-staking dan digunakan dalam &lt;em>&lt;strong>Block Mining&lt;/strong>&lt;/em>, aset tersebut memperoleh rewards karena telah membantu prosesnya. Mirip seperti deposit uang ke rekening deposito bank dan memperoleh bunga dari situ.&lt;/p>
+&lt;p>Apa kelebihan PoS dibanding metode konsensus lainnya seperti PoW?&lt;/p>
+&lt;ul>
+&lt;li>Cara mudah memperoleh rewards/interest dari aset crypto.&lt;/li>
+&lt;li>Tidak perlu membeli perangkat atau pengetahuan spesifik untuk block mining di BTC&lt;/li>
+&lt;li>Membantu menjaga keamanan dan efisiensi dari blockchain yang bersangkutan (dalam hal ini Cardano)&lt;/li>
+&lt;li>Lebih ramah lingkungan daripada block mining di BTC&lt;/li>
+&lt;/ul>
+&lt;p>Sekilas tentang cara kerja PoW untuk perbandingan:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Jaringan blockchain membutuhkan processing power yang sangat besar dimana masing - masing miner di seluruh dunia bersaing menyelesaikan mathematical problem untuk menemukan random code yang disebut &lt;em>nonce&lt;/em>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Oleh karena itu, muncul istilah jika banyak miner yang sedang online, difficulty problem makin susah. Jika banyak miner yang sedang offline, difficulty problem lebih mudah.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Pemenangnya kemudian berhak menambahkan block yang sudah berisi transaksi - transaksi tervalidasi ke dalam blockchain, lalu menerima crypto sebagai rewards-nya.&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>Blog: indonesian test article</title><link>/blog/2022/02/14/indonesian-test-article/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>/blog/2022/02/14/indonesian-test-article/</guid><description>
+&lt;p>Happy Valentine everybody!
+Percobaan pertama posting blog di github&lt;/p></description></item><item><title>Blog: My Fourth Post</title><link>/blog/2022/01/27/my-fourth-post/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>/blog/2022/01/27/my-fourth-post/</guid><description>
+&lt;p>Donec blandit non lorem nec tincidunt. Nam ultrices dolor quis justo volutpat, ac malesuada diam cursus. Quisque tincidunt velit sapien. Praesent ac risus nibh. Vestibulum at nunc vel ante porttitor lacinia. Sed eleifend lacus et sodales efficitur. Maecenas id sapien quam. Morbi efficitur dictum accumsan.r&lt;/p>
+&lt;p>&lt;img src="https://user-images.githubusercontent.com/38515818/151514016-da90e5c3-9e1a-4341-8d43-b5b61f4bc4ff.jpg" alt="mojave_desert">&lt;/p></description></item><item><title>Blog: Nesting Here</title><link>/blog/2022/01/25/nesting-here/</link><pubDate>Tue, 25 Jan 2022 00:00:00 +0000</pubDate><guid>/blog/2022/01/25/nesting-here/</guid><description>
+&lt;p>Fugiat laboris culpa in laborum sunt officia id voluptate sint ad. Occaecat ut amet tempor mollit consectetur adipisicing anim exercitation pariatur proident. Aute minim quis sint officia exercitation est velit nisi ea deserunt non pariatur. Consequat in in officia duis ut. Enim incididunt nisi exercitation nostrud duis nostrud.&lt;/p>
+&lt;p>Officia dolore elit mollit duis nostrud in. Sit Lorem amet voluptate cupidatat ut nisi incididunt sint laboris. Anim est do dolor et dolor sit cupidatat. Enim enim pariatur velit non eu amet duis id do dolor sit. Ex adipisicing consectetur eu quis sit occaecat proident nostrud sunt veniam duis.&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>This is a placeholder page that shows you how to use this template site.&lt;/p>
+&lt;/div>
+&lt;p>Sint excepteur eiusmod fugiat nostrud esse eiusmod anim eiusmod veniam et in. Amet dolore anim occaecat laborum laborum occaecat commodo qui sunt duis consectetur nulla fugiat nulla. Ipsum nulla et qui elit. Incididunt sunt officia cupidatat consectetur proident enim voluptate ex officia. In ipsum elit in laboris sunt eiusmod veniam occaecat duis voluptate Lorem officia tempor.&lt;/p>
+&lt;p>Non duis excepteur dolore minim ut enim. Anim nulla est cupidatat eiusmod esse velit labore culpa aliquip non dolore. Occaecat occaecat incididunt labore nostrud occaecat reprehenderit nostrud tempor cupidatat ullamco. Elit velit pariatur dolore ad Lorem velit quis sint commodo labore nostrud qui.&lt;/p></description></item><item><title>Blog: Nesting Here 2</title><link>/blog/2022/01/25/nesting-here-2/</link><pubDate>Tue, 25 Jan 2022 00:00:00 +0000</pubDate><guid>/blog/2022/01/25/nesting-here-2/</guid><description>
+&lt;p>Culpa ipsum eu deserunt sit dolor aute cillum incididunt. Irure laboris nostrud officia nulla in amet reprehenderit mollit ut amet. Laborum aliquip cupidatat amet voluptate irure aliqua nostrud veniam laboris laboris culpa nisi nisi ea.&lt;/p>
+&lt;p>Sunt proident ut ex ex et. Ipsum ea enim enim non. Et qui consequat magna nostrud id enim sunt magna incididunt. Excepteur ut commodo minim ipsum commodo fugiat sunt consequat aliquip.&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>This is a placeholder page that shows you how to use this template site.&lt;/p>
+&lt;/div>
+&lt;p>Irure sint duis nisi excepteur mollit fugiat. Et nisi aliquip duis do cupidatat aliqua eiusmod elit adipisicing do amet quis mollit. Elit dolore nostrud aliquip ut. Ad anim reprehenderit reprehenderit ea et nulla cillum magna sunt consequat elit enim. Voluptate enim pariatur est adipisicing sit. Fugiat occaecat veniam anim in ut do proident Lorem ea.&lt;/p>
+&lt;p>Exercitation dolor pariatur veniam nulla tempor id velit cillum dolore aliqua duis dolor in. Ad in ex nostrud proident ea nulla consequat nostrud mollit. Cillum id occaecat eu anim fugiat minim esse cupidatat enim magna ex ullamco cupidatat. Magna aliquip cillum minim nostrud deserunt dolore commodo. Aliqua aliquip minim dolor aliqua cupidatat culpa sint duis in eiusmod reprehenderit qui.&lt;/p></description></item><item><title>Blog: My First Post</title><link>/blog/2021/01/22/my-first-post/</link><pubDate>Fri, 22 Jan 2021 00:00:00 +0000</pubDate><guid>/blog/2021/01/22/my-first-post/</guid><description>
+&lt;p>Eu fugiat culpa duis do sit ea tempor nostrud ea. Exercitation occaecat magna occaecat nulla non dolor dolor fugiat aliquip veniam. Dolore dolore ad culpa voluptate elit voluptate laborum aute quis enim irure ex aute ipsum. Qui laboris occaecat do sint laboris ut commodo. Voluptate nisi veniam Lorem ad.&lt;/p>
+&lt;p>Fugiat mollit ex non laboris fugiat commodo ipsum sint aliquip ad. Magna ullamco deserunt laboris aliqua anim ut. Aliqua esse aliqua elit minim sit laborum aliquip commodo elit amet incididunt velit ullamco. Velit veniam qui voluptate ad dolor laborum excepteur. Esse sint nisi labore reprehenderit. Adipisicing sunt nulla aliqua qui velit occaecat.&lt;/p>
+&lt;p>&lt;img src="https://www.bramkoopman.com/wp-content/uploads/2018/11/dog-with-hat-meme-17.png" alt="construction dog">&lt;/p></description></item><item><title>Blog: My Second Post</title><link>/blog/2021/01/22/my-second-post/</link><pubDate>Fri, 22 Jan 2021 00:00:00 +0000</pubDate><guid>/blog/2021/01/22/my-second-post/</guid><description>
+&lt;p>Eu fugiat culpa duis do sit ea tempor nostrud ea. Exercitation occaecat magna occaecat nulla non dolor dolor fugiat aliquip veniam. Dolore dolore ad culpa voluptate elit voluptate laborum aute quis enim irure ex aute ipsum. Qui laboris occaecat do sint laboris ut commodo. Voluptate nisi veniam Lorem ad.&lt;/p>
+&lt;p>Fugiat mollit ex non laboris fugiat commodo ipsum sint aliquip ad. Magna ullamco deserunt laboris aliqua anim ut. Aliqua esse aliqua elit minim sit laborum aliquip commodo elit amet incididunt velit ullamco. Velit veniam qui voluptate ad dolor laborum excepteur. Esse sint nisi labore reprehenderit. Adipisicing sunt nulla aliqua qui velit occaecat.&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/asjQNZn7vng" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div></description></item><item><title>Blog: My Third Post</title><link>/blog/2021/01/22/my-third-post/</link><pubDate>Fri, 22 Jan 2021 00:00:00 +0000</pubDate><guid>/blog/2021/01/22/my-third-post/</guid><description>
+&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh nisi, finibus venenatis sem ut,
+blandit vehicula nisi. Ut tempus nisl id lectus pretium, at condimentum tellus pulvinar. Donec porta velit eu velit malesuada,
+vel consectetur augue consectetur. Ut tincidunt massa ut eros condimentum dapibus.
+In ut accumsan lectus. Maecenas eu orci id est molestie vestibulum sed a nulla. Vestibulum at sagittis neque.
+Sed sed elit sed sem ornare molestie non ac ex. Proin tincidunt, tellus eget pharetra pretium, sem augue tempus erat,
+sit amet blandit sem libero a risus. Nam elementum, neque a congue auctor, magna dui tempus odio, eu tincidunt velit sapien et odio.
+Fusce pellentesque laoreet nunc, in rhoncus augue blandit et.&lt;/p></description></item><item><title>Blog: catalyst fund 8</title><link>/blog/1/01/01/catalyst-fund-8/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/blog/1/01/01/catalyst-fund-8/</guid><description>
+&lt;p>Project Catalyst Fund 8 akan berlangsung mulai tgl 24 Feb 2022
+&lt;img src="https://analyticsinsight.b-cdn.net/wp-content/uploads/2022/02/cardano-ada-front.jpeg" alt="cardano">&lt;/p>
+&lt;p>Test 1 YouTube &lt;br>
+&lt;a href="https://www.youtube.com/watch?v=AzPRR89Qdlk">&lt;img src="https://ucarecdn.com/42202016-98e7-4e94-bba9-780c88ad235b/" alt="IOHK in Japan">&lt;/a>&lt;/p>
+&lt;p>Test 2 YouTube &lt;br>
+&lt;a href="https://www.youtube.com/watch?v=AzPRR89Qdlk-Y" title="IOHK in Japan">&lt;img src="https://ucarecdn.com/42202016-98e7-4e94-bba9-780c88ad235b/" alt="IOHK in Japan">&lt;/a>&lt;/p>
+&lt;p>Test 3 YouTube &lt;br>
+&lt;a href="https://youtu.be/AzPRR89Qdlk-Y" title="IOHK in Japan">&lt;img src="https://img.youtube.com/vi/AzPRR89Qdlk/0.jpg" alt="IOHK in Japan">&lt;/a>&lt;/p>
+&lt;p>Test 4 YouTube &lt;br>
+&lt;a href="https://youtu.be/AzPRR89Qdlk-Y?t=10s" title="IOHK in Japan">&lt;img src="https://img.youtube.com/vi/AzPRR89Qdlk/0.jpg" alt="IOHK in Japan">&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>Apa itu Project Catalyst?&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;p>Eksperimen governance terbesar demi terciptanya DAO yang sesungguhnya, dimana masing - masing pihak yang terlibat di dalamnya dapat saling berkolaborasi, belajar, dan berkontribusi bagi pengembangan ekosistem Cardano di dunia nyata.&lt;/p>
+&lt;p>Pembiayaan eksperimen ini berasal dari Treasury ADA dengan menggabungkan prosedur proposal dan voting. Setiap anggota komunitas dipersilahkan untuk membuat proposal, melakukan penilaian terhadap proposal, dan ikut dalam proses voting. Semuanya memiliki hak yang sama dan didorong untuk saling berkolaborasi dalam membuat proposal yang inovatif dan powerful.&lt;/p>
+&lt;p>Dengan kombinasi dari penelitian dalam pembuatan proposal, eksperimen sosial, dan persetujuan dari anggota komunitas, harapannya adalah tercipta iklim yang demokratis dalam komunitas Cardano.&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>Siapa saja yang terlibat di dalam Project Catalyst?&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;p>Secara garis besar, ada 3 pihak utama yang terlibat di dalam Project Catalyst:&lt;/p>
+&lt;ul>
+&lt;li>Proposer (pihak yang mengajukan proposal)&lt;/li>
+&lt;li>Voter (pihak yang melakukan voting terhadap proposal)&lt;/li>
+&lt;li>Community Advisors/CA (pihak yang melakukan penilaian terhadap proposal)&lt;/li>
+&lt;/ul>
+&lt;h1 id="heading">&lt;/h1>
+&lt;h3 id="cara-menjadi-proposer">&lt;strong>Cara Menjadi Proposer&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>Register di &lt;a href="https://cardano.ideascale.com/">https://cardano.ideascale.com/&lt;/a>&lt;/li>
+&lt;li>Isi Profile Details&lt;/li>
+&lt;li>Which of these definitions apply to you? → Bebas&lt;/li>
+&lt;li>For Community Advisors only: What is your ada payment address? (Must be a Shelley address, starting with “addr”) → Masukkan alamat wallet ADA. Jika berhasil mendapatkan funding, maka akan dikontak oleh pihak IOG terkait pengiriman dananya. Apabila suatu saat Proposer ingin menjadi Community Advisor, maka alamat wallet ini digunakan untuk menerima reward-nya.&lt;/li>
+&lt;li>For Community Advisors only: What is your COTI payment address? (Must be an ERC-20 wallet) → Masukkan alamat wallet COTI jika ada&lt;/li>
+&lt;li>Klik Tanda ‘+’ di kanan atas untuk Submit New Proposal, ada pilihan ‘Save as Draft’ atau ‘Submit’
+&lt;br>&lt;/br>&lt;/li>
+&lt;/ul>
+&lt;h3 id="cara-menjadi-voter">&lt;strong>Cara Menjadi Voter&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>Jika sudah pernah teregistrasi di Fund sebelumnya, maka sudah pasti valid untuk Fund - Fund berikutnya (QR Code &amp;amp; PIN jangan sampai hilang, jika hilang maka harus registrasi ulang)&lt;/li>
+&lt;li>Bagi yang masih baru, minimum wajib memiliki 500 ADA di alamat wallet&lt;/li>
+&lt;li>Lakukan proses registrasi (menu Catalyst Voting) di wallet-wallet seperti Yoroi, CCVault, Typhon, Daedalus. Biaya registrasi hanya 0.17 ADA. Petunjuk selengkapnya dapat dilihat di link berikut ini, &lt;a href="https://iohk.zendesk.com/hc/en-us/articles/900005679386">https://iohk.zendesk.com/hc/en-us/articles/900005679386&lt;/a>&lt;/li>
+&lt;li>Download app Catalyst Voting di App Store atau Play Store&lt;/li>
+&lt;li>Input QR Code &amp;amp; PIN yang diperoleh ketika proses registrasi&lt;/li>
+&lt;li>ADA tidak akan hilang / berkurang selama voting (tidak terdilusi), karena hanya menunjukkan voting power kita:
+&lt;ul>
+&lt;li>Jika kita setuju dengan proposal itu, maka akan menambah total ADA yg mendukung proposal itu.&lt;/li>
+&lt;li>Jika kita tidak setuju, maka akan mengurangi total ADA yang mendukung proposal itu.
+&lt;br>&lt;/br>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="cara-menjadi-community-advisor">&lt;strong>Cara Menjadi Community Advisor&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>Register di &lt;a href="https://cardano.ideascale.com/">https://cardano.ideascale.com/&lt;/a>&lt;/li>
+&lt;li>Isi Profile Details&lt;/li>
+&lt;li>Which of these definitions apply to you? → Bebas&lt;/li>
+&lt;li>For Community Advisors only: What is your ada payment address? (Must be a Shelley address, starting with “addr”) → Masukkan alamat wallet ADA untuk menerima reward hasil assessment&lt;/li>
+&lt;li>For Community Advisors only: What is your COTI payment address? (Must be an ERC-20 wallet) → Masukkan alamat wallet COTI jika ada&lt;/li>
+&lt;li>Begitu masa assessment akan dimulai, akan muncul pop up di halaman Cardano Ideascale, meminta konfirmasi apakah bersedia menjadi Community Advisor/CA.&lt;/li>
+&lt;li>Seandainya sudah setuju, namun tidak sempat menjalankan assessment karena keterbatasan waktu, tidak masalah, karena pop up konfirmasi tersebut akan muncul lagi di Fund berikutnya.&lt;/li>
+&lt;/ul>
+&lt;h1 id="heading-1">&lt;/h1>
+&lt;h4 id="untuk-menilai-sebuah-proposal-harus-memenuhi-3-aspek-antara-lain">Untuk menilai sebuah proposal harus memenuhi 3 aspek, antara lain:&lt;/h4>
+&lt;h3 id="impact">&lt;strong>Impact&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>Apakah menambah value ke ekosistem Cardano?&lt;/li>
+&lt;li>Tantangan apa yang coba diselesaikan?&lt;/li>
+&lt;li>Impact lokal atau global?&lt;/li>
+&lt;li>Kemampuan untuk ditingkatkan atau dikembangkan lebih lanjut (scaling)?&lt;/li>
+&lt;/ul>
+&lt;h3 id="feasibility">&lt;strong>Feasibility&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>Kemungkinan sukses?&lt;/li>
+&lt;li>Apakah pengalaman proposer atau proposer dan timnya sejalan dengan proposal yang diajukan?&lt;/li>
+&lt;li>Rencana dan timeframe dari project&lt;/li>
+&lt;li>Rencana penggunaan budget&lt;/li>
+&lt;li>Apakah kemungkinan resiko yang dapat terjadi sudah diperhitungkan di dalam proposal?&lt;/li>
+&lt;/ul>
+&lt;h3 id="auditability">&lt;strong>Auditability&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>Bagaimana cara komunitas mengaudit progress dari project?&lt;/li>
+&lt;li>Apakah ada KPI, roadmap, atau milestone yang ingin dicapai?&lt;/li>
+&lt;li>Apakah delivery dari project tersebut dijelaskan secara detail?&lt;/li>
+&lt;/ul>
+&lt;h1 id="heading-2">&lt;/h1>
+&lt;h4 id="sebagai-informasi-kegiatan-ini-khusus-di-eastern-townhall-eth-indonesia-saja-dan-dimulai-sejak-tanggal-10-jan-2022">&lt;em>Sebagai informasi, kegiatan ini khusus di Eastern Townhall (ETH) Indonesia saja dan dimulai sejak tanggal 10 Jan 2022&lt;/em>&lt;/h4>
+&lt;h3 id="program-community-engagement-bounty-10">&lt;strong>Program Community Engagement Bounty 1.0&lt;/strong>&lt;/h3>
+&lt;p>Fungsinya adalah mencari cara bagaimana suatu komunitas dapat berjalan dan tumbuh tanpa adanya komando, dalam hal ini komando dari seorang Community Manager.&lt;/p>
+&lt;p>Kegiatan ini adalah sebuah penerapan DAO (Decentralized Autonomous Organization) untuk menggantikan peran Community Manager dengan memberikan kompensasi tertentu atas beberapa KPI (Key Performance Indicator/Index) yang dimiliki oleh seorang Community Manager. KPI-KPI ini didistribusikan ke komunitas, lalu bagi siapa yang mau mengambil/menjalankan KPI tersebut, maka akan mendapatkan kompensasi.&lt;/p>
+&lt;p>Beberapa KPI yang didistribusikan:&lt;/p>
+&lt;ul>
+&lt;li>Bring new members (Biweekly Eastern Townhall, AMA Session, Workshop)
+Onboarding member baru, karena sudah membantu ‘marketing’ mengenai Cardano dan Eastern Townhall&lt;/li>
+&lt;li>Content Sharing (Telegram &amp;amp; Discord)
+Membantu komunitas untuk semakin paham ekosistem Cardano&lt;/li>
+&lt;li>Engagement in Discussions (Telegram &amp;amp; Discord)
+Partisipasi yang terus aktif untuk selalu menghidupi chat room&lt;/li>
+&lt;/ul>
+&lt;p>&lt;em>&lt;strong>Rewards atas pencapaian KPI dibagikan secara mingguan!&lt;/strong>&lt;/em>
+&lt;br>&lt;/br>&lt;/p>
+&lt;h3 id="program-menerjemahkan-berkompensasi">&lt;strong>Program Menerjemahkan Berkompensasi&lt;/strong>&lt;/h3>
+&lt;p>Fungsinya adalah mencari cara bagaimana menerjemahkan konten Cardano yang sedemikian banyak tanpa merekrut Translator.&lt;/p>
+&lt;p>Ini adalah cara ETH DAO menggantikan peran Translator dengan mengkategorikan suatu item untuk diterjemahkan per jumlah kata, lalu disesuaikan kompensasinya berdasarkan tingkat kesulitan. Teknik pengkategoriannya menggunakan T-shirt Agile Method (ada ukuran XS, S, M, dan L). Siapa yang menerjemahkan terlebih dahulu dengan hasil penerjemahan yang benar, maka akan mendapatkan kompensasi.&lt;/p>
+&lt;p>Saat ini, program hanya ada selama Fund Catalyst berlangsung. Namun nanti ke depannya, akan ada program Marketplace for Bounties (seperti platform Freelancer, Upwork, dan sejenisnya) namun khusus di komunitas Cardano saja.&lt;/p>
+&lt;p>&lt;em>&lt;strong>Rewards dibagikan begitu semua dokumen selesai di-review!&lt;/strong>&lt;/em>&lt;/p></description></item></channel></rss>

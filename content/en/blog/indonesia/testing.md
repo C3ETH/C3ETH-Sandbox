@@ -39,7 +39,7 @@ g. **Epoch 7 (Hari 26-30)** → Menerima rewards dari Epoch 5.
 
 Rewards akan terus diterima di setiap Epoch selama SPO terus memproduksi block di 2 Epoch sebelumnya.
 
-### **3. Mengubah Jumlah Staking (menambahkan / mengurangi)**
+### **3. Mengubah Jumlah Staking (menambah/mengurangi)**
 > *melanjutkan contoh di atas*
 
 a. **Epoch 7 (sedang berjalan)**
